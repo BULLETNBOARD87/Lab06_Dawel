@@ -84,7 +84,7 @@ public class App extends Application {
             orderLabel.setText(" ");
         });
         
-        Scene scene = new Scene(bagPane, 640, 480);
+        Scene scene = new Scene(bagPane, 350, 250);
         stage.setScene(scene);
         stage.setTitle("Bag Selector");
         stage.show();
