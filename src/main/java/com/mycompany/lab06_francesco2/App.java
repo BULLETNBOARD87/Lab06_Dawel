@@ -79,6 +79,11 @@ public class App extends Application {
             orderLabel.setText("You ordered " + numSelected + " " + sizeSelection + " " + bagSelection + "Bags.");
         });
         
+        clearButton.setOnAction(e -> 
+        {
+            orderLabel.setText(" ");
+        });
+        
         Scene scene = new Scene(bagPane, 640, 480);
         stage.setScene(scene);
         stage.setTitle("Bag Selector");
